@@ -1,3 +1,4 @@
+
 name: Android CI
 
 on:
@@ -24,6 +25,9 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew assembleDebug
+
+    - name: List APKs
+      run: ls -R app/build/outputs/apk
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
