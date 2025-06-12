@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
                              WindowManager.LayoutParams.FLAG_SECURE);
 
         TextView textView = new TextView(this);
-        textView.setText("This screen has FLAG_SECURE enabled. Screenshots are blocked.");
+        textView.setText("FLAG_SECURE is enabled. Screenshots are blocked.");
         textView.setTextSize(20);
         textView.setPadding(40, 200, 40, 200);
         setContentView(textView);

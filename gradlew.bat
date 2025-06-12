@@ -1,2 +1,2 @@
 @echo off
-echo This is a placeholder gradlew.bat script.
+java -jar gradle\wrapper\gradle-wrapper.jar %*
